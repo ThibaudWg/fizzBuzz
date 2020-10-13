@@ -3,5 +3,7 @@
 
 class FizzBuzz
 {
+    function test():bool {
 
+    }
 }

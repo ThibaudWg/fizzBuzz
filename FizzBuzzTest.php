@@ -47,4 +47,9 @@ class FizzBuzzTest extends PHPUnit_Framework_TestCase
         return $this->fizzBuzz->count($int);
     }
 
+    public function test_count_given6_shouldReturn6(){
+        $actual=$this->actCount(6);
+        $this->assertEquals("6", $actual);
+    }
+
 }

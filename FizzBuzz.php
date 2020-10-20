@@ -3,7 +3,8 @@
 
 class FizzBuzz
 {
-    function test():bool {
-
+    public function count($int):string
+    {
+        return "1";
     }
 }
